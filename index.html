@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/index.js"></script>
     <script src="https://kit.fontawesome.com/26ed9480a4.js" crossorigin="anonymous"></script>
     <title>Taller 0 Maquetación Responsive</title>
 </head>
@@ -19,18 +20,17 @@
         <a href="opiniones.html" class="item">Opiniones</a>
         <a href="#" class="item"><i class="fa-solid fa-user"></i> Iniciar Sesión</a>
         </div>
-        </nav>
-        <section>
-            <div class="wrap-slider">
-                <ul class="slider">
-                    <li id="s-1"> <img src="img/slide1.jpg" alt=""></li>
-                    <li id="s-2"> <img src="img/slide2.png" alt=""> </li>
-                </ul>
-            </div>
-        </section>
+    </nav>
+    <div class="carousel">
+        <div class="slides">
+          <div class="slide"><img src="img/slide1.jpg"></div>
+          <div class="slide"><img src="img/slide2.png"></div>
+        </div>
+        <a class="prev" onclick="avanzar(1)">&#10094;</a>
+        <a class="next" onclick="retroceder(1)">&#10095;</a>
+      </div>
         <section id="features">
             <h2 class="features-title">Razones por las que disfrutarás quedarte con nosotros</h2>
-            
             <div class="features-description">
                 <div class="feature feature-blue">
                     <i class="fa-solid fa-bell-concierge"></i>
