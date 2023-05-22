@@ -179,3 +179,34 @@ hr {
     background-color: rgb(43, 56, 243);
     margin: auto;
 }
+
+.wrap-footer {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.footer {
+    background-color: gray;
+    padding: 80px 0;
+}
+
+.wrap-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-footer {
+    width: 30%;
+    padding: 15 0px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.content-footer li {
+    list-style: none;
+}
+
+.social-links {
+    display: inline-block;
+    font-size: 100%;
+}
