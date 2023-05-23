@@ -71,6 +71,10 @@ nav {
     height: 3rem;
 }
 
+.logo i {
+    display: none;
+}
+
 #features {
     background: url(../img/bg-features.png);
     color: white;
@@ -273,6 +277,7 @@ img {
     }
 
     .logo i {
+        display: block;
         grid-area: menu-bars;
         justify-self: end;
         color: var(--blanco);
