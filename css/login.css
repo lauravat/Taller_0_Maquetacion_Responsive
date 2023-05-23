@@ -111,3 +111,10 @@ h1 {
 .text-account {
     color: #000;
 }
+
+@media screen and (min-width: 1024px) {
+    .form {
+        width: 35vw;
+        height: 75vh;
+    }
+}
