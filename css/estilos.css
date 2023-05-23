@@ -169,6 +169,11 @@ nav {
     margin: 5%
 }
 
+.text img {
+    width: 12%;
+    height: 20%;
+}
+
 .location {
     text-align: center;
 }
