@@ -37,3 +37,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+var Menu = document.querySelector("#menu");
+var Hr = document.querySelector(".menu-hr")
+
+function DisplayMenu() {
+    if (Menu.style.display === 'none') {
+        Menu.style.display = 'grid';
+        Hr.style.display = "block"
+    } else {
+        Menu.style.display = 'none';
+        Hr.style.display = "none"
+    }
+}
