@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100=;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background: url(/img/login/bg-login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10% 1fr;
+}
+
+.profile {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.profile button {
+    width: 100%;
+    background: #337ab7;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+    width: 70px;
+    background: #312f2f;
+}
+
+.header-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background: linear-gradient(49.54deg, #3379b7b4 2.89%, #0b3860 80.34%);
+}
+
+.header-top .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-logo {
+    font-size: 1.5rem;
+}
+
+.header img {
+    width: 60px;
+    margin: 10px;
+}
+
+.header i {
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+.header span {
+    display: none;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+.header a:hover {
+    background: #0b3860;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    margin: 10px;
+    padding: 10px;
+    width: 60vw;
+    background: #fffefcc5;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.75);
+}
+
+.form h1 {
+    font-size: 2.5rem;
+}
+
+.row {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row>input,
+select {
+    height: 1.5rem;
+    border: 0;
+    outline: 0;
+    margin: 8px 0 8px 0;
+    box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.75);
+}
+
+
+button {
+    width: 30%;
+    padding: 10px;
+    background: black;
+    border: 0;
+    color: #fff;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Checkbox {
+    margin: 8px 0 8px 0;
+}
+
+.Checkbox input {
+    margin: 0 4px 0 4px;
+}
