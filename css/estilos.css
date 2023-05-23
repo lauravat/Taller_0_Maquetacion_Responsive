@@ -215,3 +215,17 @@ hr {
     display: inline-block;
     font-size: 100%;
 }
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../img/Vector-opinion.png);
+}
+
+.slider-item {
+    text-align: center;
+}
+
+img {
+    width: 90%;
+}
