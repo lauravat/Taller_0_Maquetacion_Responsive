@@ -102,3 +102,30 @@ h1 {
 .Checkbox input {
     margin: 0 4px 0 4px;
 }
+
+@media screen and (min-width: 1024px) {
+    .grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 50% 1fr;
+        /* Establecemos que ocupen el 50% del contenedor y que ocupen un arow */
+    }
+
+    .row {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        justify-content: unset;
+    }
+
+    body {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 30% 1fr;
+    }
+
+    .header {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+}
